@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .nav1 {
+    margin-left: 0;
+  }
+
+  header .nav2 {
+    margin: 20px auto;
+  }
+
+  .main-movie .container {
+    width: 50%;
+  }
+
+  .btns button {
+    margin-top: 7px;
+  }
+
+  .btns .btn1,
+  .btn2 {
+    width: 75%;
+  }
+}
